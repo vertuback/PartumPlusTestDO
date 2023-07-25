@@ -21,5 +21,20 @@ class LoginPage {
   async isElementVisible(selector) {
     return await this.selector.isElementVisible();
   }
+  async isElementEnabled(selector) {
+    return await this.selector.isElementEnabled();
+  }
+  async isElementSelected(selector) {
+    return await this.selector.isElementSelected();
+  }
+  async isElementChecked(selector) {
+    return await this.selector.isElementChecked();
+  }
+  async isElementFocused(selector) {
+    return await this.selector.isElementFocused();
+  }
+  async isElementEditable(selector) {
+    return await this.selector.isElementEditable();
+  }
 }
 module.exports = {LoginPage};
